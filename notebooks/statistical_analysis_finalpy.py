@@ -112,6 +112,7 @@ for i in range(5):
 
 plt.title('Sample Covariance Heatmap')
 plt.tight_layout()
+plt.savefig('../figures/smp_covHM.png', dpi=150)
 plt.show(block=True)
 
 
